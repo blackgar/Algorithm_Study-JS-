@@ -37,4 +37,6 @@ function solution(n, k, enemy) {
 
   return answer;
 }
+
+//test
 console.log(solution(7, 3, [4, 2, 4, 5, 3, 3, 1]));
