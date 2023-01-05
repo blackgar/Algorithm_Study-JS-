@@ -71,3 +71,28 @@
 - 카펫
 
 </details>
+
+<details>
+  <summary>3주차(22.12.26(월) ~ 23.01.02(월))</summary>
+
+#### Lv1
+
+- 삼총사
+
+#### Lv2
+
+- 캐시
+- 롤케이크 자르기
+
+</details>
+
+<details>
+  <summary>4주차(23.01.02(월) ~ 23.01.05(목))</summary>
+
+#### Lv2
+
+- 올바른 괄호
+- 숫자의 표현
+- JadenCase 문자열 만들기
+
+</details>
