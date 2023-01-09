@@ -19,7 +19,7 @@ function solution(today, terms, privacies) {
     collectDate = collectDate.getTime(); // 개인정보 수집 일자 timestamp 변환
 
     if (collectDate <= todayDate) {
-      // 오늘 날짜와 유효기간을 timestamp로 비교
+      // 오늘 날짜와 최종 유효기간을 timestamp로 비교
       result.push(i + 1);
     }
   });
