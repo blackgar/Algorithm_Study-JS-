@@ -1,7 +1,7 @@
 function solution(s) {
   var answer = 0;
 
-  for (let n = 0; n < s; n++) {
+  for (let n = 0; n < parseInt(s / 2) + 1; n++) {
     let res = recurSum(n, n, s);
     console.log(res);
     if (res) {
