@@ -2,7 +2,7 @@
 
 // 카운트 함수
 // 들어온 숫자가 n보다 작으면 + 들어온숫자+1
-// 들어온 숫자가 n이랑 같으면 return true
+// 들어온 숫자가 n이랑 같으면 return trueimage.png
 // 들어온 숫자가 n보다 크면 return false
 function solution(n) {
   var answer = 0;
