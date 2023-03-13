@@ -10,7 +10,13 @@ function solution(board) {
     for (let j = 0; j < board[i].length; j++) {
       if (board[i][j] === "O") O_cnt += 1;
       else if (board[i][j] === "X") X_cnt += 1;
-    }
+    }dkssudfgktph jwjsms chlthgmkfrkgkqlsddkssudgktpdy wjsms chlth gmkfhrgkqslek.
+    sswlrmdlqjsdp qk75d, ml lqhemfmfm kTtjddy.Array qlqlfemrk chrma whrma gglaemfrls goTwlaks rmfoeh saodn Qnemtgks tjdrhkff djedmsrj rkxtmqslek.Array
+    
+
+
+
+             
   }
   if (O_cnt < X_cnt) return 0;
   if (O_cnt < 3 && X_cnt < 3) return 1;
