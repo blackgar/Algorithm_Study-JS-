@@ -14,7 +14,7 @@ function solution(land) {
       land[i - 1][j] = temp;
     }
   }
-  return Math.max(...land.at(-1));
+  return Math.max(...land.at(-1)); // 마지막 행에서 최대값
 }
 
 // 시간 초과
