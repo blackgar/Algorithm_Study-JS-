@@ -174,16 +174,17 @@
 
 </details>
 <details>
+
 <summary>9주차(23.02.06(월) ~ 23.02.13(월))</summary>
 
 #### Lv2
 
+- H-Index
 - 기능 개발
 - 시소 짝꿍
 - 타겟 넘버
 - 프린터
 - 호텔 대실
-- H-Index
 
 </details>
 <details>
@@ -220,5 +221,18 @@
 
 - 행렬의 곱셈
 - 혼자서 하는 틱택토
+
+</details>
+<details>
+<summary>13주차(23.03.06(월) ~ 23.03.13(월))</summary>
+
+#### Lv1
+
+- 바탕화면 정리
+
+#### Lv2
+
+- 숫자 변환하기
+- 덧칠하기
 
 </details>
