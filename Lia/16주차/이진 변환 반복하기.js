@@ -2,13 +2,12 @@ function solution(str) {
   let cnt = 0;
   let zeroCnt = 0;
   function DFS(str) {
-    console.log(str);
     if (str === "1") {
       return;
     }
     // 전체 문자열 탐색하면서 0을 빈스트링으로 교체
     let newStr = str.replace(/0/g, "");
-    console.log(newStr);
+
     cnt += 1;
     zeroCnt += str.length - newStr.length;
 
@@ -16,7 +15,7 @@ function solution(str) {
   }
   DFS(str);
 
-  console.log(cnt, zeroCnt);
+  return [cnt, zeroCnt];
 }
 
 console.log(solution("110010101001"));
