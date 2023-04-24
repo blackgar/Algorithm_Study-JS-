@@ -21,6 +21,7 @@ function solution(park, routes) {
     let nx;
     let ny;
 
+    // 해당 방향으로 n번만큼 이동하면서 한 번이라도 못가는 구역이 발생하면 이동 취소
     for (let i = 0; i < n; i++) {
       nx = sx + dir[0];
       ny = sy + dir[1];
@@ -43,6 +44,7 @@ function solution(park, routes) {
   for (let i = 0; i < routes.length; i++) {
     const [op, n] = routes[i];
     const dir = direction[op].map((el) => el);
+    console.log(dir);
     const res = checkX(startX, startY, dir, n);
 
     if (res[2]) {
