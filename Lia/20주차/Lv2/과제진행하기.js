@@ -36,7 +36,6 @@ function solution(plans) {
       time = Math.abs(time);
 
       for (let i = stack.length - 1; i >= 0; i--) {
-        console.log(time);
         const rest = stack[i][1] - time;
 
         if (rest > 0) {
