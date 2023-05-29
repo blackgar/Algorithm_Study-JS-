@@ -12,3 +12,5 @@ function solution(n) {
 
 console.log(solution(10));
 console.log(solution(5));
+
+// 에라토스테네스의 체 알고리즘으로 시간 복잡도를 줄이는 것이 핵심
