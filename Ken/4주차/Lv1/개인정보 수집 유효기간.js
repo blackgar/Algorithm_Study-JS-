@@ -63,11 +63,3 @@ console.log(
   )
 );
 console.log(solution("2020.01.01", ["A 12"], ["2019.12.01 A"]));
-switch (key) {
-  case value:
-    
-    break;
-
-  default:
-    break;
-}
